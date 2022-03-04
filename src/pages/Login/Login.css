@@ -1,0 +1,47 @@
+.login {
+  display: grid;
+  place-items: center;
+  margin-top: 10%;
+}
+
+.login img {
+  object-fit: contain;
+  height: 200px;
+}
+
+.login Button {
+  background: green;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 600;
+  width: 300px;
+  text-transform: capitalize;
+}
+
+.login Button .MuiSvgIcon-root {
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+.login Button:hover {
+  color: green;
+  background: transparent;
+}
+
+@media (max-width: 750px) {
+  .login {
+    margin-top: 30%;
+  }
+  .login img {
+    object-fit: contain;
+    height: 100px;
+  }
+
+  .login Button {
+    width: 200px;
+    font-size: 13px;
+  }
+  .login Button .MuiSvgIcon-root {
+    margin-right: 10px;
+  }
+}
